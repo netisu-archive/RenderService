@@ -18,8 +18,8 @@ var (
 	fovy   		  = 22.5 // 1.5 if render is false
 	near  		  = 1.0 // 2 if render is false
 	far    		  = 1000.0
-	color  		  = "#ffffff"
-	Amb           = "#606060"
+	color  		  = "#ffffff" // #828282 blender renderer
+	Amb           = "#606060" // #d4d4d4 blender renderer
 	cdnDirectory  = "/var/www/cdn"
 )
 
