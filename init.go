@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	eye           = V(2.5, 1.5, 10) // 9.5,9.5,40 if render is false
+	eye           = V(2.5, 2.0, 10) // 9.5,9.5,40 if render is false //alt one 3.5,1.3,7
 	center        = V(0, 0, 0) // 0,2,0 if render is false
 	up            = V(0, 5, 0) // 0,3,0 if render is false
 	Dimentions    = 512
