@@ -94,7 +94,7 @@ func main() {
 	objects = append(objects, armObjects...)
 
 	path := filepath.Join(cdnDirectory, "thumbnails", *hash+".png")
-    GenerateScene(true, path, objects, eye, center, up, fovy, Dimentions, CameraScale, light, Amb, "ffffff", near, far)
+    GenerateScene(true, path, objects, eye, center, up, fovy, Dimentions, CameraScale, light, Amb, color, near, far)
 	    fmt.Println("Avatar rendered in", time.Since(start), "at", path)
 }
 func RenderHats(hats ...string) []*Object {
